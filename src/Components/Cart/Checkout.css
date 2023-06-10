@@ -1,0 +1,118 @@
+#checkout-form {
+  margin: 1rem 0;
+  padding-top: 1rem;
+  border-top: 2px solid #f95200;
+<<<<<<< HEAD
+  /* height: 17rem; */
+=======
+>>>>>>> 3636304a38fd6ba57f63ae6c51e902aa4dbdbbfb
+  overflow: auto;
+}
+
+#checkout-form .flex-class{
+  display: grid;
+  column-gap: 5px;
+  grid-template-columns: auto auto;
+}
+
+#checkout-form .control {
+  margin-bottom: 0.5rem;
+}
+
+#checkout-form .control label {
+  font-weight: bold;
+  display: block;
+}
+
+#checkout-form .control input {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 19rem;
+  max-width: 100%;
+  padding: 5px;
+}
+
+#checkout-form .actions {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#checkout-form button {
+  margin:5px 0;
+  font: inherit;
+  color: white;
+  cursor: pointer;
+  background-color: #f95200;
+  border: 1px solid #f95200;  
+  border-radius: 25px;
+  padding: 0.5rem 2rem; 
+}
+
+#checkout-form .actions button:hover,
+#checkout-form .actions button:active {
+  background-color: #eb5003;
+  color: white;
+}
+
+#checkout-form .actions .submit:hover,
+#checkout-form .actions .submit:active {
+  background-color: #7a2706;
+}
+
+#checkout-form .invalid label {
+  color: #ca3e51;
+}
+
+#checkout-form .invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}
+
+#checkout-form button:disabled, button:disabled:hover, button:disabled:active{
+  background-color: lightgray;
+  color: white;
+  border-color: lightgray;
+  cursor: not-allowed;
+}
+
+#checkout-form .close{
+<<<<<<< HEAD
+  margin: 5px 10px 0 0;
+  color: #f95200;
+  background-color: transparent;
+=======
+  margin-top: 5px;
+>>>>>>> 3636304a38fd6ba57f63ae6c51e902aa4dbdbbfb
+}
+
+.invalid{
+  color: #aa0b20
+}
+
+@media(max-width: 768px) {
+<<<<<<< HEAD
+  .actions button {
+    padding: 5px 18px;
+  }
+}
+
+@media(max-width:1278px){
+=======
+>>>>>>> 3636304a38fd6ba57f63ae6c51e902aa4dbdbbfb
+  #checkout-form .flex-class{
+    display: flex !important;
+    flex-direction: column;
+    width: 95%;
+  }
+<<<<<<< HEAD
+}
+=======
+
+  .actions button {
+    padding: 5px 18px;
+  }
+}
+>>>>>>> 3636304a38fd6ba57f63ae6c51e902aa4dbdbbfb
