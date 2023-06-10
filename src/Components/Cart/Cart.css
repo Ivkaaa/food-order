@@ -67,4 +67,8 @@
     .cart-actions button {
         padding: 5px 18px;
     }
+
+    h2.message{
+        margin: 10px 0 !important;
+    }
 }

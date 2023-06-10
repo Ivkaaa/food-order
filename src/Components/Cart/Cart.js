@@ -85,7 +85,7 @@ const Cart = props => {
 
   const didSubmitModalContent = (
     <React.Fragment>
-      <h2 className="message">Vaša porudžbina je prosleđena restoranu!</h2>
+      <h2 className="essage">Vaša porudžbina je prosleđena restoranu!</h2>
       <div className="cart-actions">
         <button className="close" onClick={props.onHideCart}>Zatvori</button>
       </div>
