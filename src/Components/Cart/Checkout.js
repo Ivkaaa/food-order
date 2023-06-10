@@ -45,7 +45,6 @@ const Checkout = (props) => {
       return;
     };
 
-<<<<<<< HEAD
     props.onConfirm({
       name: nameInput,
       address: addressInput,
@@ -55,10 +54,6 @@ const Checkout = (props) => {
 
     console.log("Submitted!");
     console.log(nameInput, addressInput, florInput, phoneInput);
-=======
-    console.log('Submitted!')
-    console.log(nameInput, addressInput, florInput, phoneInput)
->>>>>>> 3636304a38fd6ba57f63ae6c51e902aa4dbdbbfb
   };
 
   const nameInvalidClass = !formInputValidity.name

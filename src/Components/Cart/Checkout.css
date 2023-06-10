@@ -2,10 +2,7 @@
   margin: 1rem 0;
   padding-top: 1rem;
   border-top: 2px solid #f95200;
-<<<<<<< HEAD
   /* height: 17rem; */
-=======
->>>>>>> 3636304a38fd6ba57f63ae6c51e902aa4dbdbbfb
   overflow: auto;
 }
 
@@ -79,13 +76,9 @@
 }
 
 #checkout-form .close{
-<<<<<<< HEAD
   margin: 5px 10px 0 0;
   color: #f95200;
   background-color: transparent;
-=======
-  margin-top: 5px;
->>>>>>> 3636304a38fd6ba57f63ae6c51e902aa4dbdbbfb
 }
 
 .invalid{
@@ -93,26 +86,15 @@
 }
 
 @media(max-width: 768px) {
-<<<<<<< HEAD
   .actions button {
     padding: 5px 18px;
   }
 }
 
 @media(max-width:1278px){
-=======
->>>>>>> 3636304a38fd6ba57f63ae6c51e902aa4dbdbbfb
   #checkout-form .flex-class{
     display: flex !important;
     flex-direction: column;
     width: 95%;
   }
-<<<<<<< HEAD
 }
-=======
-
-  .actions button {
-    padding: 5px 18px;
-  }
-}
->>>>>>> 3636304a38fd6ba57f63ae6c51e902aa4dbdbbfb

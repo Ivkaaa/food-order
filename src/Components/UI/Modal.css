@@ -10,11 +10,6 @@
   
 .modal {
   position: fixed;
-<<<<<<< HEAD
-=======
-  top: 10vh;
-  left: 23%;
->>>>>>> 3636304a38fd6ba57f63ae6c51e902aa4dbdbbfb
   width: 50%;
   top: 10vh;
   left: 23%;
@@ -29,14 +24,9 @@
   
 @media (max-width: 768px) {
   .modal {
-<<<<<<< HEAD
     left: 13%;
     width: 70%;
     /* left: calc(50% - 40rem); */
-=======
-    width: 70%;
-    left: 13%;
->>>>>>> 3636304a38fd6ba57f63ae6c51e902aa4dbdbbfb
   }
 }
   
